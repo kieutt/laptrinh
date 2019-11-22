@@ -6,10 +6,6 @@ char status;
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-    #endif
-
     scanf("%d\n", &M);
     for (int i = 1; i <= M; i++)
     {
