@@ -6,10 +6,6 @@ stack <int> S;
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-    #endif
-
     scanf("%d", &N);
     for (int i = 1; i <= N; i++)
         scanf("%d", &a[i]);
