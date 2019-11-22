@@ -14,10 +14,6 @@ int get(string X)
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-    #endif
-
     cin >> N;   len = N.size();
     Nmin = Nmax = get(N);
     for (int i = 0; i < len; i++)
