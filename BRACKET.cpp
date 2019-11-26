@@ -1,3 +1,5 @@
+
+//https://code.cvp.vn/contest/11/problem/BRACKET
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -29,11 +31,6 @@ int getmin(int k, int l, int r, int x, int y)
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-        freopen("ra.out", "w", stdout);
-    #endif
-
     scanf("%d %d\n", &N, &Q);
     for (int i = 1; i <= N; i++)
     {
