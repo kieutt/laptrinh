@@ -1,3 +1,4 @@
+//https://code.cvp.vn/contest/11/problem/BRACKET2
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -38,11 +39,6 @@ bool check(int l, int r)
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-        freopen("ra1.out", "w", stdout);
-    #endif
-
     scanf("%d %d %s", &N, &Q, S + 1);
     for (int i = 1; i <= N; i++)
         update(1, 1, N, i, i, x += (S[i] == '(') ? 1 : -1);
