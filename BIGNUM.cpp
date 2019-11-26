@@ -1,3 +1,4 @@
+//https://code.cvp.vn/contest/11/problem/BIGNUM
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,10 +21,6 @@ long long Hash(char S[], int len, long long base)
 
 main()
 {
-    #ifndef KIEUQUOCDAT
-        freopen("vao.inp", "r", stdin);
-    #endif
-
     srand(time(0));
     for (int i = 0; i < 30; i++)
         my_base[i] = 1LL * (1 + rand()%10000) * (1 + rand()%10000) * (1 + rand()%10000);
